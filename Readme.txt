@@ -1,4 +1,3 @@
-*When running the script on windows terminal I need to close the previous graphs to view later graphs. I don't know if this would be necessary in other environments.
 
 
 Design:
@@ -44,15 +43,3 @@ Even if two cycles are computed, we may still fail to localize accurately for so
 Improvement：
 
 For outer boundary detection, we may need to enhace the image first to make some fuzzy boundaries clearer so that we can use only one edge detection criterion to detect edges not two. For eyelash issue, we may need to use histogram to detect and remove them.
-
-
-
-Peer Evaluation Form:
-
-xw2747: IrisLocalization IrisNormalization ImageEnhancement IrisRecognition(main function)
-
-hj2593: FeatureExtraction IrisMatching PerformanceEvaluation
-
-by2325: FeatureExtraction IrisMatching PerformanceEvaluation
-
-
